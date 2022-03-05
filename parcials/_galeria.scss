@@ -1,0 +1,55 @@
+@import "../parcials/variables";
+
+.categorias {
+  height: 250vh;
+
+  .categorias__contenedor {
+    align-items: center;
+    padding: 2rem;
+    background-color: #eeeeee;
+    border: 0.2rem rgba(184, 184, 184, 0.16) solid;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "squareArea-1 squareArea-2 rectangleArea-2 suqareArea-3"
+      "rectangleArea-1 rectangleArea-1 rectangleArea-2 squareArea-4";
+
+    .containerImage {
+      background-size: cover;
+      //   border: 2px rgb(201, 48, 48) solid;
+      padding: 0;
+
+      img {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.squareArea-1 {
+  grid-area: squareArea-1;
+}
+
+.squareArea-2 {
+  grid-area: squareArea-2;
+}
+
+.rectangleArea-2 {
+  grid-area: rectangleArea-2;
+}
+
+.rectangleArea-1 {
+  grid-area: rectangleArea-1;
+}
+
+.suqareArea-3 {
+  grid-area: suqareArea-3;
+}
+
+.squareArea-4 {
+  grid-area: squareArea-4;
+}

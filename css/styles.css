@@ -1,0 +1,423 @@
+/* <!-- ___________________________________________________________________________________________  --> */
+/* Banner */
+
+.banner {
+  background: url(https://c.wallhere.com/photos/a4/90/black_sculpture-1347609.jpg!d);
+
+  display: flex;
+  align-items: flex-end;
+  background-size: 110rem;
+  background-position: -15rem -7rem;
+  width: 100%;
+  height: 40rem;
+  opacity: 80%;
+  z-index: 1;
+  position: relative;
+}
+
+#filtro {
+  background-color: rgba(0, 46, 146, 0.254);
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+svg {
+  z-index: 3;
+}
+
+/* <!-- ___________________________________________________________________________________________  --> */
+
+/* Body */
+
+.titleIndex {
+  background-color: #dfdfdf;
+  text-align: center;
+  margin: 0 auto;
+  padding: 6rem;
+  font-size: 4.7rem;
+  font-weight: 800;
+  opacity: 1;
+}
+
+body {
+  background-color: #eeeeee;
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  color: rgb(59, 79, 97);
+}
+
+header {
+  background-color: rgb(17, 17, 17);
+  font-size: 1.2rem;
+  width: 100%;
+  border-bottom: aliceblue 0.5rem solid;
+
+  -webkit-box-shadow: 0px 9px 30px 25px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0px 9px 30px 25px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 9px 30px 25px rgba(0, 0, 0, 0.6);
+}
+
+/* <!-- ___________________________________________________________________________________________  --> */
+
+/* Navbar y menú desplegable */
+
+.logo--header {
+  width: 11rem;
+  margin: 0 4rem 0 8rem;
+}
+
+.nombreSitio {
+  color: #090909ad;
+}
+
+.logoHeader {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+header div {
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+div nav ul {
+  display: flex;
+  margin-right: 3rem;
+}
+
+li {
+  background-color: black;
+  display: inline-block;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1.5rem;
+  display: inline-block;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+.subMenu {
+  display: none;
+  position: absolute;
+  z-index: 4;
+}
+
+.navConteiner li {
+  display: inline-block;
+}
+
+.navConteiner li:hover ul {
+  display: block;
+}
+
+.subMenu li {
+  display: block;
+  position: relative;
+}
+
+/* <!-- ___________________________________________________________________________________________  --> */
+
+.descBreve {
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.biografia {
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* ___________________________________________________________________________________________--------------- */
+
+/* separador */
+
+.separador {
+  width: 70%;
+  margin: 8rem auto;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  opacity: 90%;
+}
+
+/* Index */
+
+.title {
+  text-align: center;
+  margin: 6rem auto;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  margin: 3rem auto;
+  text-align: center;
+  width: 70%;
+  padding: 0 1rem;
+}
+
+iframe {
+  display: block;
+  margin: 6rem auto 4rem;
+
+  width: 65%;
+  height: 500px;
+}
+
+.contenedorPrimerArticulo {
+  background-color: #fce9b9;
+  padding: 4.5rem 2rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-items: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.seccionOrigenes {
+  background-color: #fce9b9;
+  width: 100%;
+}
+
+.wave {
+  margin-bottom: -15rem;
+}
+
+.conteinerTema {
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  width: 80%;
+
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.tituloTema {
+  font-size: 3.1rem;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+
+.imagenTema {
+  display: inline-block;
+  width: 80vh;
+  transition: all;
+  -webkit-transition: all 0.9s 0s ease-in-out;
+  -moz-transition: all 0.9s 0s ease-in-out;
+  -o-transition: all 0.9s 0s ease-in-out;
+  transition: all 0.9s 0s ease-in-out;
+}
+
+.imagenTema:hover {
+  display: inline-block;
+  width: 85vh;
+
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(71, 66, 52, 0.7);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(71, 66, 52, 0.7);
+  box-shadow: 0px 0px 30px 0px rgba(71, 66, 52, 0.7);
+}
+
+/* ___________________________________________________________________________________________--------------- */
+
+/* Banner Hero - sobrenosotros.html */
+
+.heroTitle {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+.heroDesc {
+  font-size: 15px;
+  width: 100%;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.heroConteiner {
+  background-color: rgb(194, 134, 12);
+  display: inline-block;
+  width: 25%;
+  padding: 30px;
+  margin: 8rem 8rem 1rem;
+
+  -webkit-box-shadow: 0px 0px 22px 3px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 0px 22px 3px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 22px 3px rgba(255, 255, 255, 0.5);
+
+  -webkit-border-radius: 27px 27px 27px 27px;
+  -moz-border-radius: 27px 27px 27px 27px;
+  border-radius: 27px 27px 27px 27px;
+}
+
+.contactButtom {
+  width: 10%;
+  height: 10%;
+  margin: 0 8rem 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  color: rgba(97, 96, 96, 0.748);
+  background-color: rgb(255, 229, 190);
+  -webkit-border-radius: 100px 100px 100px 100px;
+  -moz-border-radius: 100px 100px 100px 100px;
+  border-radius: 100px 100px 100px 100px;
+  border: solid 2px #ffffff;
+}
+
+/* ___________________________________________________________________________________________--------------- */
+
+/* Footer */
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  list-style: none;
+  width: 100%;
+  padding: 3rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  border-top: solid 0.5rem aliceblue;
+  justify-content: space-evenly;
+}
+
+div ul {
+  display: flex;
+}
+
+.listaFooter {
+  display: inline-flex;
+}
+
+.servicios .listaFooter li a {
+  display: inline-flex;
+}
+
+.redes .listaFooter li a {
+  display: inline-flex;
+}
+
+.redes {
+  display: flex;
+}
+
+.redes .listaFooter {
+  width: 40rem;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+footer .listaFooter ul li a {
+  display: flex;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  margin: 0 2rem;
+}
+
+footer ul li a {
+  color: rgb(142, 164, 220);
+}
+
+footer .servicios ul li a {
+  color: rgb(255, 255, 255);
+}
+
+.logo--footer {
+  width: 13rem;
+}
+
+/* ___________________________________________________________________________________________--------------- */
+
+/* Seccion categoría */
+
+.seccionBuscador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section div input {
+  display: inline-block;
+  text-align: center;
+  padding: 1rem;
+}
+
+section div button {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.buscador {
+  display: inline-flex;
+  width: 70rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.buscadorBarra {
+  width: 40rem;
+}
+
+/* ___________________________________________________________________________________________--------------- */
+
+.seccionNoticias {
+  width: 100%;
+  height: 110rem;
+  padding: 3rem;
+}
+
+.seccionNoticias h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.seccionNoticias h3 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.seccionNoticias p {
+  font-size: 1.1rem;
+}
+
+.renglonNoticias {
+  margin-top: 3rem;
+}
+
+.containerImage {
+  width: 100%;
+}
+
+.containerImage img {
+  width: 100%;
+}
