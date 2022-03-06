@@ -1,0 +1,171 @@
+@import "../parcials/variables";
+
+$seccionHorarios__mañanatarde: rgba(5, 50, 104, 0.701);
+
+.seccionHorarios {
+  height: 90vh;
+  width: 100%;
+  padding: 7rem;
+
+  .seccionHorarios__renglon {
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .seccionHorarios__card {
+      background-color: rgba(255, 255, 255, 0.413);
+      height: 27rem;
+      padding: 1.2rem;
+      width: 21%;
+      border-radius: 3rem;
+      transition: transform 1.2s;
+
+      margin: 0 auto;
+
+      .seccionHorarios__titulo {
+        font-weight: 800;
+        opacity: 0.9;
+        text-align: center;
+        margin: 0.7rem 0 0 0;
+        padding: 2rem 2rem 0 2rem;
+      }
+
+      .seccionHorarios__horarios {
+        //   background-color: $seccionHorarios__mañanatarde;
+        padding: 1.5rem 0;
+        border-radius: 1.2rem;
+
+        .seccionHorarios__mañana {
+          opacity: 0.7;
+          display: block;
+          text-decoration: none;
+          color: $paletaUno;
+          font-size: 1.3rem;
+          text-align: center;
+        }
+
+        .seccionHorarios__tarde {
+          opacity: 0.7;
+          display: block;
+          text-decoration: none;
+          color: $paletaUno;
+          font-size: 1.3rem;
+          text-align: center;
+        }
+      }
+
+      .seccionHorarios__descripcion {
+        text-align: center;
+      }
+
+      .seccionHorarios__precio {
+        text-align: center;
+
+        font-weight: 800;
+        font-size: 3.1rem;
+      }
+    }
+  }
+
+  .seccionHorarios__card:hover {
+    transform: translateY(-1.5rem);
+  }
+}
+
+// ________________________________________________________________________
+
+.seccionHorarios--segundaseccion {
+  height: 150vh;
+  width: 100%;
+  padding: 7rem;
+  background-color: $paletaDos--Alternativa;
+
+  .seccionHorarios__renglon {
+    padding: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .seccionHorarios__card {
+      background-color: rgba(255, 255, 255, 0.413);
+      height: 27rem;
+      padding: 1.2rem;
+      width: 21%;
+      border-radius: 3rem;
+      transition: transform 1.2s;
+
+      margin: 0 auto;
+
+      .seccionHorarios__titulo {
+        font-weight: 800;
+        opacity: 0.9;
+        text-align: center;
+        margin: 0.7rem 0 0 0;
+        padding: 2rem 2rem 0 2rem;
+      }
+
+      .seccionHorarios__horarios {
+        //   background-color: $seccionHorarios__mañanatarde;
+        padding: 1.5rem 0;
+        border-radius: 1.2rem;
+
+        .seccionHorarios__mañana {
+          opacity: 0.7;
+          display: block;
+          text-decoration: none;
+          color: $paletaUno;
+          font-size: 1.3rem;
+          text-align: center;
+        }
+
+        .seccionHorarios__tarde {
+          opacity: 0.7;
+          display: block;
+          text-decoration: none;
+          color: $paletaUno;
+          font-size: 1.3rem;
+          text-align: center;
+        }
+      }
+
+      .seccionHorarios__descripcion {
+        text-align: center;
+      }
+
+      .seccionHorarios__precio {
+        text-align: center;
+
+        font-weight: 800;
+        font-size: 3.1rem;
+      }
+    }
+  }
+
+  .seccionHorarios__card:hover {
+    transform: translateY(-1.5rem);
+  }
+}
+
+.seccionHorarios--terceraseccion {
+  padding: 7rem;
+  iframe {
+    background-color: rgba(189, 189, 189, 0.626);
+    opacity: 0.7;
+    padding: 3rem;
+    margin: 0 auto;
+  }
+  div {
+    opacity: 0.7;
+    background-color: rgba(255, 255, 255, 0.626);
+    width: 65%;
+    margin: 0 auto;
+    padding: 2rem;
+    .seccionHorarios--terceraseccion__textoiframe {
+      text-align: center;
+      font-size: 1.3rem;
+    }
+  }
+}

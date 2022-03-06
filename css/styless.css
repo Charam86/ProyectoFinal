@@ -146,11 +146,32 @@
   border: 0.1rem rgba(148, 148, 148, 0.338) solid;
 }
 
-.categorias {
+.categoriasPrincipales .categorias__renglon {
+  height: 27rem;
+}
+
+.categoriasPrincipales .categorias__renglon .contenedorImagenesPrincipales {
+  overflow: hidden;
+}
+
+.categoriasPrincipales .categorias__renglon .contenedorImagenesPrincipales img {
+  -webkit-transition: -webkit-transform 2.5s;
+  transition: -webkit-transform 2.5s;
+  transition: transform 2.5s;
+  transition: transform 2.5s, -webkit-transform 2.5s;
+  width: 100%;
+}
+
+.categoriasPrincipales .categorias__renglon .contenedorImagenesPrincipales img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.categorias--modificado {
   height: 250vh;
 }
 
-.categorias .categorias__contenedor {
+.categorias--modificado .categorias__contenedor {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -168,13 +189,25 @@
       grid-template-areas: "squareArea-1 squareArea-2 rectangleArea-2 suqareArea-3" "rectangleArea-1 rectangleArea-1 rectangleArea-2 squareArea-4";
 }
 
-.categorias .categorias__contenedor .containerImage {
+.categorias--modificado .categorias__contenedor .containerImage {
   background-size: cover;
   padding: 0;
+  position: relative;
+  overflow: hidden;
 }
 
-.categorias .categorias__contenedor .containerImage img {
+.categorias--modificado .categorias__contenedor .containerImage img {
   padding: 0;
+  -webkit-transition: -webkit-transform 2s;
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+  width: 100%;
+}
+
+.categorias--modificado .categorias__contenedor .containerImage img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .squareArea-1 {
@@ -213,5 +246,188 @@
   -ms-grid-row: 2;
   -ms-grid-column: 4;
   grid-area: squareArea-4;
+}
+
+.seccionHorarios {
+  height: 90vh;
+  width: 100%;
+  padding: 7rem;
+}
+
+.seccionHorarios .seccionHorarios__renglon {
+  padding: 2rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card {
+  background-color: rgba(255, 255, 255, 0.413);
+  height: 27rem;
+  padding: 1.2rem;
+  width: 21%;
+  border-radius: 3rem;
+  -webkit-transition: -webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;
+  margin: 0 auto;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__titulo {
+  font-weight: 800;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0.7rem 0 0 0;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__horarios {
+  padding: 1.5rem 0;
+  border-radius: 1.2rem;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__horarios .seccionHorarios__mañana {
+  opacity: 0.7;
+  display: block;
+  text-decoration: none;
+  color: #3b4f61;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__horarios .seccionHorarios__tarde {
+  opacity: 0.7;
+  display: block;
+  text-decoration: none;
+  color: #3b4f61;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__descripcion {
+  text-align: center;
+}
+
+.seccionHorarios .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__precio {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.1rem;
+}
+
+.seccionHorarios .seccionHorarios__card:hover {
+  -webkit-transform: translateY(-1.5rem);
+          transform: translateY(-1.5rem);
+}
+
+.seccionHorarios--segundaseccion {
+  height: 150vh;
+  width: 100%;
+  padding: 7rem;
+  background-color: #fee9a97b;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon {
+  padding: 2rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card {
+  background-color: rgba(255, 255, 255, 0.413);
+  height: 27rem;
+  padding: 1.2rem;
+  width: 21%;
+  border-radius: 3rem;
+  -webkit-transition: -webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;
+  margin: 0 auto;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__titulo {
+  font-weight: 800;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0.7rem 0 0 0;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__horarios {
+  padding: 1.5rem 0;
+  border-radius: 1.2rem;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__horarios .seccionHorarios__mañana {
+  opacity: 0.7;
+  display: block;
+  text-decoration: none;
+  color: #3b4f61;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__horarios .seccionHorarios__tarde {
+  opacity: 0.7;
+  display: block;
+  text-decoration: none;
+  color: #3b4f61;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__descripcion {
+  text-align: center;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__renglon .seccionHorarios__card .seccionHorarios__precio {
+  text-align: center;
+  font-weight: 800;
+  font-size: 3.1rem;
+}
+
+.seccionHorarios--segundaseccion .seccionHorarios__card:hover {
+  -webkit-transform: translateY(-1.5rem);
+          transform: translateY(-1.5rem);
+}
+
+.seccionHorarios--terceraseccion {
+  padding: 7rem;
+}
+
+.seccionHorarios--terceraseccion iframe {
+  background-color: rgba(189, 189, 189, 0.626);
+  opacity: 0.7;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.seccionHorarios--terceraseccion div {
+  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.626);
+  width: 65%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.seccionHorarios--terceraseccion div .seccionHorarios--terceraseccion__textoiframe {
+  text-align: center;
+  font-size: 1.3rem;
 }
 /*# sourceMappingURL=styless.css.map */
